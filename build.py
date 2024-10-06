@@ -16,7 +16,9 @@
 # contents of the SOURCE_DIRECTORY. No other files will be present in the TARGET_DIRECTORY.
 #
 # Serving a static site on GitHub Pages requires that the static files be in the
-# /root or /docs directory. 
+# /root or /docs directory in a specific branch of a repo. The strategy presented
+# here allows for continued development as normal, with a specific release branch 
+# for GitHub Pages.
 #
 # The script accepts and requires three arguments:
 # 1. SOURCE_DIRECTORY - The directory that contains the files to be promoted.
