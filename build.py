@@ -4,6 +4,8 @@
 # Build for GH Pages
 # Author: Michael Tanenbaum
 # GitHub: https://github.com/tbaums
+# GitHub Project Repository: https://github.com/tbaums/build-for-gh-pages
+# License: Apache License 2.0
 # 
 # The purpose of this script is to promote the contents of a source directory 
 # (SOURCE_DIRECTORY) to a target directory (TARGET_DIRECTORY) on a user-specified 
@@ -14,7 +16,7 @@
 # contents of the SOURCE_DIRECTORY. No other files will be present in the TARGET_DIRECTORY.
 #
 # Serving a static site on GitHub Pages requires that the static files be in the
-# /root or /docs directory.
+# /root or /docs directory. 
 #
 # The script accepts and requires three arguments:
 # 1. SOURCE_DIRECTORY - The directory that contains the files to be promoted.
